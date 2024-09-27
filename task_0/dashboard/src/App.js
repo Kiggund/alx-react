@@ -1,5 +1,7 @@
 import logo from './holberton.jpg';
 import './App.css';
+import React from 'react';
+import { getFullYear, getFooterCopy } from './utils';
 
 function App() {
   return (
@@ -10,12 +12,22 @@ function App() {
       </header>
       <div className="App-body">
         <p>Login to access the full dashboard</p>
+        <label htmlFor='email'>Email:</label>
+        <input type='email' id='email' onClick={() => document.getElementById('emailInput').focus()} />
+        <label htmlFor="password">Password:</label>
+        <input type="password" id="password" />
+        <button>OK</button>
       </div>
       <div className="App-footer">
-        <p>Copyright 2020 - holberton School</p>
+        <footer>
+        <p>{getFooterCopy(true)}</p>
+        <p>{getFullYear()}</p>
+        </footer>
       </div>
     </div>
+
   );
 }
 
 export default App;
+

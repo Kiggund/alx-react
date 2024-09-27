@@ -21,10 +21,25 @@
   left: 0;
   width: 100px;
 }
+.App-body {
+  padding-bottom: 200px;
+}
 .App-body p {
   position: relative;
   left: 50px;
-  padding-bottom: 200px;
+}
+.App-body button {
+  color: #db1b6b;
+  position: relative;
+  left: 20px;
+}
+label[for='email']{
+  position: relative;
+  margin-left: 50px;
+}
+label[for='password']{
+  position: relative;
+  margin-left: 20px;
 }
 .App-footer {
   border-top: solid#ee2d2d;
