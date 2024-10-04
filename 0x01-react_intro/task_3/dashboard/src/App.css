@@ -1,0 +1,50 @@
+.App {
+  background-color: white;
+}
+
+.App-header {
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: solid #ee2d2d;
+}
+.App-header h1 {
+  text-align: right;
+  position: relative;
+  left: 100px;
+  color: #ee2d2d;
+}
+.App-logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100px;
+}
+.App-body {
+  padding-bottom: 200px;
+}
+.App-body p {
+  position: relative;
+  left: 50px;
+}
+.App-body button {
+  color: #db1b6b;
+  position: relative;
+  left: 20px;
+}
+label[for='email']{
+  position: relative;
+  margin-left: 50px;
+}
+label[for='password']{
+  position: relative;
+  margin-left: 20px;
+}
+.App-footer {
+  border-top: solid#ee2d2d;
+}
+.App-footer p {
+  text-align: center;
+  font-style: italic;
+}
