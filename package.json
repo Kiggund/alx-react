@@ -1,0 +1,48 @@
+{
+  "name": "alx-react",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "0x00-Webpack",
+    "0x01-react_intro",
+    "0x01-react_intro1",
+    "0x02-react_props",
+    "0x03-React_component",
+    "0x04-React_inline_styling",
+    "0x05-react_state",
+    "0x06-React_Immutable",
+    "0x07-react_redux_action_create_normalizr",
+    "0x07-react_redux_action_creator_normalizr",
+    "0x08-react_redux_reducer_selector",
+    "0x08-react_redux_reducer_selector1",
+    "0x09-react_redux_connectors_and_providers"
+  ],
+  "description": "This is a combined react project for alx",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-scripts": "^5.0.1",
+    "web-vitals": "^4.2.4"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {}
+}

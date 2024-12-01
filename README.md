@@ -1,1 +1,1 @@
-This is a combined react project for alx
+This is my readme file for the dashboard app

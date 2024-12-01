@@ -1,1 +1,1 @@
-Author:  Nwamah Ikechukwu
+Readme file for 0x04-react_inline
